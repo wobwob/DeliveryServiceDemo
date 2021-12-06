@@ -14,6 +14,8 @@ public class Delivery {
     private String errorMessage;
     private String info;
 
+    private String reportTrim = "----------------------------------------------\n";
+
     public boolean isMinimumPayment() {
         return isMinimumPayment;
     }
@@ -132,10 +134,10 @@ public class Delivery {
 
         System.out.println(
                 "\nORDER DETAILS\n" +
-                        "----------------------------------------------\n" +
+                        reportTrim +
                         details +
                         fee +
-                        "----------------------------------------------\n" +
+                        reportTrim +
                         total);
     }
 }
