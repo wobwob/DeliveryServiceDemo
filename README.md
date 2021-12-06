@@ -70,7 +70,7 @@ To run a basic example using Delivery service:
   delivery.printResults(); // print calculation results to the console
   ```
   
-####Example #1
+#### Example #1
 Input:
 ```java
 Cargo cargo = new Cargo(100, 270, 340, false);
@@ -94,7 +94,7 @@ Fragile cargo commission:             0.00RUB
 ----------------------------------------------
 TOTAL:                              500.00RUB
 ```
-####Example #2
+#### Example #2
 _(same cargo and distance, different workload)_
 
 Input:
@@ -125,7 +125,7 @@ TOTAL:                              800.00RUB
 * Service fee depends on the current workload
 (Current workload is very high)
 ```
-####Example #3
+#### Example #3
 _(fragile cargo and a long distance)_
 
 Input:
@@ -142,7 +142,7 @@ Sorry, delivery of a fragile cargo is not available for the specified distance
 Maximum distance for a fragile cargo:        30.00km
 Order distance:                              31.00km
 ```
-####Example #4
+#### Example #4
 _(minimum price is set)_
 
 Input:
