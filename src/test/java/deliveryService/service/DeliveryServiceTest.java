@@ -161,7 +161,6 @@ class DeliveryServiceTest extends DeliveryTests {
     @Test
     @DisplayName("calculate dimensions commission for invalid cargo (zero volume)")
     void zeroVolume() {
-        double cargoSide = Math.cbrt(palletVolume);
         cargo = new Cargo(0, 0, 0, false);
         order = new Order(cargo).setDistance(distance);
         delivery = deliveryService.calculateOrderDelivery(order);
